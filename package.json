@@ -1,0 +1,37 @@
+{
+  "name": "mondrian-install-test",
+  "version": "1.0.0",
+  "description": "mondrian install test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:cdn": "http-server ./cdn",
+    "start:webpack": "webpack serve --config ./webpack/webpack.config.js --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naiteluo/mondrian-install-test.git"
+  },
+  "author": "naiteluo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/naiteluo/mondrian-install-test/issues"
+  },
+  "homepage": "https://github.com/naiteluo/mondrian-install-test#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^6.2.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "http-server": "^14.1.0",
+    "style-loader": "^3.2.1",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.3.0",
+    "webpack": "^5.50.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@mondrian/mondrian": "^0.0.7-rc.0"
+  }
+}
